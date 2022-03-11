@@ -26,13 +26,13 @@ public class CustomListTest {
     }
 
     @Test
-    void testHasCity(){
+    public void testHasCity(){
         list.addCity(new City("Vancouver", "British Columbia"));
         assertTrue(list.hasCity(new City("Vancouver", "British Columbia")));
     }
 /*
     @Test
-    void testDelete(){
+    public void testDelete(){
         City city = new City("Quebec City", "Quebec");
         list.addCity(city);
         list.delete(city);
@@ -41,7 +41,7 @@ public class CustomListTest {
 
 
     @Test
-    void testCountCities() {
+    public void testCountCities() {
         City city = new City("Coquitlam", "British Columbia");
         assertEquals(1,list.countCities());
     } */
